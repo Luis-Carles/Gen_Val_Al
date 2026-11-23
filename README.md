@@ -1,23 +1,21 @@
-# Gen_Val_Al
-ISML Generator and testing using Diehard - MS, MUIA
-
 # Pseudo-Random Number Generation and Analysis
+ISML Generator and testing using Diehard - MS, MUIA
 
 ## Project Objective
 
-The objective of this project is to generate a sample of pseudo-random numbers using the **IMSL Multiplicative Congruential Generator**, with multiplier \(a=16807\) and modulus \(m=2^{31}-1\).
+The objective of this project is to generate a sample of pseudo-random numbers using the **IMSL Multiplicative Congruential Generator**, with multiplier $a=16807$ and modulus $m=2^{31}-1$.
 
 The generator is defined by the following recurrence relation:
 
-\[
+$$
 X_{n+1}=(16807\cdot X_n)\bmod(2^{31}-1)
-\]
+$$
 
-The resulting states are normalized to produce values in the interval \((0,1)\):
+The resulting states are normalized to produce values in the interval $(0,1)$:
 
-\[
+$$
 U_n=\frac{X_n}{2^{31}-1}
-\]
+$$
 
 The generated sample is subsequently evaluated using **[Dieharder](https://webhome.phy.duke.edu/~rgb/General/dieharder.php)**, a statistical testing suite designed to assess the quality of random number generators.
 
