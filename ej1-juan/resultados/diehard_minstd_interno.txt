@@ -1,0 +1,18 @@
+   diehard_birthdays    0        100      100 0.97408329   PASSED  
+      diehard_operm5    0    1000000      100 0.05417646   PASSED  
+  diehard_rank_32x32    0      40000      100 0.99648974    WEAK   
+    diehard_rank_6x8    0     100000      100 0.80940473   PASSED  
+   diehard_bitstream    0    2097152      100 0.20192309   PASSED  
+        diehard_opso    0    2097152      100 0.00001737    WEAK   
+        diehard_oqso    0    2097152      100 0.00091819    WEAK   
+         diehard_dna    0    2097152      100 0.00000000   FAILED  
+diehard_count_1s_str    0     256000      100 0.87116048   PASSED  
+diehard_count_1s_byt    0     256000      100 0.70433802   PASSED  
+ diehard_parking_lot    0      12000      100 0.00758950   PASSED  
+    diehard_2dsphere    2       8000      100 0.01867097   PASSED  
+    diehard_3dsphere    3       4000      100 0.15165974   PASSED  
+     diehard_squeeze    0     100000      100 0.32489639   PASSED  
+        diehard_runs    0     100000      100 0.07997210   PASSED  
+        diehard_runs    0     100000      100 0.75119943   PASSED  
+       diehard_craps    0     200000      100 0.53209223   PASSED  
+       diehard_craps    0     200000      100 0.04078722   PASSED  

@@ -1,0 +1,98 @@
+x_10000 = 1043618065 (esperado 1043618065) -> OK
+Version 64 bits y Schrage coinciden en las 10000 iteraciones.
+== LCG (floor(u*2^32)), semilla 12345 ==
+   diehard_birthdays    0        100      100 0.66503997   PASSED  
+      diehard_operm5    0    1000000      100 0.31487535   PASSED  
+  diehard_rank_32x32    0      40000      100 0.00000000   FAILED  
+    diehard_rank_6x8    0     100000      100 0.26596358   PASSED  
+   diehard_bitstream    0    2097152      100 0.51505333   PASSED  
+        diehard_opso    0    2097152      100 0.00002003    WEAK   
+        diehard_oqso    0    2097152      100 0.00000062   FAILED  
+         diehard_dna    0    2097152      100 0.00000000   FAILED  
+diehard_count_1s_str    0     256000      100 0.00000000   FAILED  
+diehard_count_1s_byt    0     256000      100 0.00000000   FAILED  
+ diehard_parking_lot    0      12000      100 0.00758950   PASSED  
+    diehard_2dsphere    2       8000      100 0.01867097   PASSED  
+    diehard_3dsphere    3       4000      100 0.15165974   PASSED  
+     diehard_squeeze    0     100000      100 0.32489639   PASSED  
+        diehard_runs    0     100000      100 0.07997210   PASSED  
+        diehard_runs    0     100000      100 0.75119943   PASSED  
+       diehard_craps    0     200000      100 0.53209223   PASSED  
+       diehard_craps    0     200000      100 0.04078722   PASSED  
+== LCG (floor(u*2^32)), semilla 987654321 ==
+   diehard_birthdays    0        100      100 0.35094861   PASSED  
+      diehard_operm5    0    1000000      100 0.81437392   PASSED  
+  diehard_rank_32x32    0      40000      100 0.00000000   FAILED  
+    diehard_rank_6x8    0     100000      100 0.17844127   PASSED  
+   diehard_bitstream    0    2097152      100 0.70118452   PASSED  
+        diehard_opso    0    2097152      100 0.01246081   PASSED  
+        diehard_oqso    0    2097152      100 0.00000112    WEAK   
+         diehard_dna    0    2097152      100 0.00000000   FAILED  
+diehard_count_1s_str    0     256000      100 0.00000000   FAILED  
+diehard_count_1s_byt    0     256000      100 0.00000000   FAILED  
+ diehard_parking_lot    0      12000      100 0.01485875   PASSED  
+    diehard_2dsphere    2       8000      100 0.03366073   PASSED  
+    diehard_3dsphere    3       4000      100 0.50799386   PASSED  
+     diehard_squeeze    0     100000      100 0.29289063   PASSED  
+        diehard_runs    0     100000      100 0.36422019   PASSED  
+        diehard_runs    0     100000      100 0.99641458    WEAK   
+       diehard_craps    0     200000      100 0.98848544   PASSED  
+       diehard_craps    0     200000      100 0.16361012   PASSED  
+== LCG (floor(u*2^32)), semilla 20261130 ==
+   diehard_birthdays    0        100      100 0.52780726   PASSED  
+      diehard_operm5    0    1000000      100 0.44466306   PASSED  
+  diehard_rank_32x32    0      40000      100 0.00000000   FAILED  
+    diehard_rank_6x8    0     100000      100 0.43103684   PASSED  
+   diehard_bitstream    0    2097152      100 0.34955075   PASSED  
+        diehard_opso    0    2097152      100 0.00723026   PASSED  
+        diehard_oqso    0    2097152      100 0.00362040    WEAK   
+         diehard_dna    0    2097152      100 0.00000000   FAILED  
+diehard_count_1s_str    0     256000      100 0.00000000   FAILED  
+diehard_count_1s_byt    0     256000      100 0.00000000   FAILED  
+ diehard_parking_lot    0      12000      100 0.04838718   PASSED  
+    diehard_2dsphere    2       8000      100 0.49160203   PASSED  
+    diehard_3dsphere    3       4000      100 0.18767757   PASSED  
+     diehard_squeeze    0     100000      100 0.61374543   PASSED  
+        diehard_runs    0     100000      100 0.97228929   PASSED  
+        diehard_runs    0     100000      100 0.22230082   PASSED  
+       diehard_craps    0     200000      100 0.42508642   PASSED  
+       diehard_craps    0     200000      100 0.49037599   PASSED  
+== LCG (x<<1), semilla 12345 ==
+   diehard_birthdays    0        100      100 0.50451268   PASSED  
+      diehard_operm5    0    1000000      100 0.31487535   PASSED  
+  diehard_rank_32x32    0      40000      100 0.00000000   FAILED  
+    diehard_rank_6x8    0     100000      100 0.00000000   FAILED  
+   diehard_bitstream    0    2097152      100 0.00000000   FAILED  
+        diehard_opso    0    2097152      100 0.00000000   FAILED  
+        diehard_oqso    0    2097152      100 0.00000000   FAILED  
+         diehard_dna    0    2097152      100 0.00000000   FAILED  
+diehard_count_1s_str    0     256000      100 0.00000000   FAILED  
+diehard_count_1s_byt    0     256000      100 0.00000000   FAILED  
+ diehard_parking_lot    0      12000      100 0.00758950   PASSED  
+    diehard_2dsphere    2       8000      100 0.01867097   PASSED  
+    diehard_3dsphere    3       4000      100 0.15165974   PASSED  
+     diehard_squeeze    0     100000      100 0.32489639   PASSED  
+        diehard_runs    0     100000      100 0.07997210   PASSED  
+        diehard_runs    0     100000      100 0.75119943   PASSED  
+       diehard_craps    0     200000      100 0.53209223   PASSED  
+       diehard_craps    0     200000      100 0.04078722   PASSED  
+== minstd interno de Dieharder, semilla 12345 ==
+   diehard_birthdays    0        100      100 0.97408329   PASSED  
+      diehard_operm5    0    1000000      100 0.05417646   PASSED  
+  diehard_rank_32x32    0      40000      100 0.99648974    WEAK   
+    diehard_rank_6x8    0     100000      100 0.80940473   PASSED  
+   diehard_bitstream    0    2097152      100 0.20192309   PASSED  
+        diehard_opso    0    2097152      100 0.00001737    WEAK   
+        diehard_oqso    0    2097152      100 0.00091819    WEAK   
+         diehard_dna    0    2097152      100 0.00000000   FAILED  
+diehard_count_1s_str    0     256000      100 0.87116048   PASSED  
+diehard_count_1s_byt    0     256000      100 0.70433802   PASSED  
+ diehard_parking_lot    0      12000      100 0.00758950   PASSED  
+    diehard_2dsphere    2       8000      100 0.01867097   PASSED  
+    diehard_3dsphere    3       4000      100 0.15165974   PASSED  
+     diehard_squeeze    0     100000      100 0.32489639   PASSED  
+        diehard_runs    0     100000      100 0.07997210   PASSED  
+        diehard_runs    0     100000      100 0.75119943   PASSED  
+       diehard_craps    0     200000      100 0.53209223   PASSED  
+       diehard_craps    0     200000      100 0.04078722   PASSED  
+Resultados guardados en ./resultados
